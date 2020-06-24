@@ -1,0 +1,20 @@
+{
+  "name": "covid19-it",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dev-server.js",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "express": "^4.17.1",
+    "googleapis": "^48.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon dev-server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
